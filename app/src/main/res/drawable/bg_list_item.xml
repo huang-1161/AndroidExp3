@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 点击后保持选中：暗红色（对应 PDF 图里那一行） -->
+    <item android:state_activated="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#8B0000" />
+        </shape>
+    </item>
+
+    <!-- 手指按下瞬间：稍亮一点的红 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#B71C1C" />
+        </shape>
+    </item>
+
+    <!-- 默认：透明 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+</selector>

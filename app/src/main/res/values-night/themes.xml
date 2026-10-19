@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="actionModeBackground">?attr/colorPrimary</item>
+        <item name="actionModeSplitBackground">?attr/colorPrimary</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_close</item>
+    </style>
+</resources>

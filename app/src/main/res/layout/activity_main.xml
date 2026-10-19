@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:text="Android 界面组件实验"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_exp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验1  ListView + SimpleAdapter" />
+
+    <Button
+        android:id="@+id/btn_exp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验2  自定义布局的 AlertDialog" />
+
+    <Button
+        android:id="@+id/btn_exp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验3  XML 定义菜单" />
+
+    <Button
+        android:id="@+id/btn_exp4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验4  上下文操作模式菜单" />
+
+    <Button
+        android:id="@+id/btn_exp5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验5  RecyclerView" />
+</LinearLayout>
